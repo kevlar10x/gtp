@@ -19,14 +19,9 @@ Claude answers each one from what the product actually does, and a weak answer c
 
 ## Example
 
-For a made-up lantern mod:
+A real run on a made-up app idea:
 
-```
-GTP: Better Lantern
-1. Why this over vanilla? → Twice the light radius, same battery drain → no change
-2. Would I notice it? → Thumbnail is a dark screenshot with no lantern in view → needs you: grab a night shot with the lantern lit
-3. Does it uninstall cleanly? → Yes, but the readme doesn't say so → fixed: added an uninstall section
-```
+![gtp on FridgeShare, a made-up app for flatmates: nine questions a user would ask, each answered with a fix or a call left to the author](docs/fridgeshare-demo.png)
 
 ## Install
 
