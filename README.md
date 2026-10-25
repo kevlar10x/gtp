@@ -23,6 +23,8 @@ A real run on a made-up app idea:
 
 ![gtp on FridgeShare, a made-up app for flatmates: nine questions a user would ask, each answered with a fix or a call left to the author](docs/fridgeshare-demo.png)
 
+FridgeShare was only an idea with no files, so the fixes above are suggestions. On a real project, gtp answers from your code and pages, makes the safe fixes itself, and leaves the rest to you, like 8 and 9.
+
 ## Install
 
 Claude Code:
