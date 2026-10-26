@@ -5,6 +5,7 @@ license: MIT
 metadata:
   author: kevlar10x
   version: "1.0.0"
+  repository: https://github.com/kevlar10x/gtp
 ---
 
 # GTP: grill the product

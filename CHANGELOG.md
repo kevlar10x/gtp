@@ -3,6 +3,7 @@
 ## Unreleased
 
 - The plugin's directory listing now links to the README and has more search keywords.
+- SKILL.md now names its home repo, so a copied skill still points back to the original.
 
 ## 1.0.0 - 2026-10-26
 
