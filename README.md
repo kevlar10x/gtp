@@ -27,19 +27,35 @@ FridgeShare was only an idea with no files, so the fixes above are suggestions. 
 
 ## Install
 
-Claude Code:
+Claude Code, as a skill:
 
 ```
 npx skills add kevlar10x/gtp -g
 ```
 
-Or copy `SKILL.md` into `~/.claude/skills/gtp/`.
+Claude Code, as a plugin (2.1.275 or later):
 
-claude.ai: put `SKILL.md` in a folder named `gtp`, zip the folder, and upload it under Settings → Capabilities → Skills.
+```
+/plugin install gtp --marketplace kevlar10x/gtp
+```
+
+Installed this way, it runs as `/gtp:gtp`.
+
+Or copy `skills/gtp/SKILL.md` into `~/.claude/skills/gtp/`.
+
+claude.ai: download `gtp.zip` from the [latest release](https://github.com/kevlar10x/gtp/releases/latest) and upload it under Settings → Capabilities → Skills.
 
 ## Use
 
-Say `gtp` (or `/gtp` in Claude Code) while you're working on something.
+Say `gtp` (or `/gtp` in Claude Code) while you're working on something. A few ways to start it:
+
+- `gtp` with a mod, game or app project open
+- `gtp the store page in docs/listing.md`
+- `grill this from the side of someone who has never heard of it`
+
+gtp is one instruction file. It runs no scripts and sends nothing anywhere. Claude reads your project and edits files with its usual tools and permissions.
+
+If it doesn't start when you say `gtp`, call it directly with `/gtp`, and check that `SKILL.md` sits in a folder named `gtp`. Bugs and ideas go in [issues](https://github.com/kevlar10x/gtp/issues).
 
 ## Credit
 

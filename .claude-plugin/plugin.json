@@ -1,0 +1,16 @@
+{
+  "name": "gtp",
+  "displayName": "gtp: grill the product",
+  "version": "1.0.0",
+  "description": "Grill your product from the user's side: ask what a would-be player, user or downloader would ask, answer honestly from the real product, and fix the gaps.",
+  "author": {
+    "name": "kevlar10x",
+    "url": "https://github.com/kevlar10x"
+  },
+  "homepage": "https://github.com/kevlar10x/gtp",
+  "repository": "https://github.com/kevlar10x/gtp",
+  "supportUrl": "https://github.com/kevlar10x/gtp/issues",
+  "icon": "./.claude-plugin/icon.png",
+  "license": "MIT",
+  "keywords": ["product-review", "ux", "feedback", "mods", "games", "apps"]
+}
