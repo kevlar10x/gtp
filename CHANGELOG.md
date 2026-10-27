@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+- The README has Privacy and Uninstall sections, a step for installing from the desktop app, and a link to btt.
+- The plugin listing links to the README's Privacy section.
+- The repo's Sponsor button links to Ko-fi.
 - The plugin's directory listing now links to the README and has more search keywords.
 - SKILL.md now names its home repo, so a copied skill still points back to the original.
 - The plugin marketplace is now called `kevlar10x-gtp`. It was `kevlar10x`, the same name quiet-transcript uses, so adding both made one replace the other.

@@ -41,6 +41,8 @@ Claude Code, as a plugin (2.1.275 or later):
 
 Installed this way, it runs as `/gtp:gtp`.
 
+In the desktop app, where `/plugin` doesn't run: click + next to the prompt box, then Plugins → Add marketplace with `kevlar10x/gtp` → Add plugin.
+
 Or copy `skills/gtp/SKILL.md` into `~/.claude/skills/gtp/`.
 
 claude.ai: download `gtp.zip` from the [latest release](https://github.com/kevlar10x/gtp/releases/latest) and upload it under Settings → Capabilities → Skills.
@@ -53,14 +55,26 @@ Say `gtp` (or `/gtp` in Claude Code) while you're working on something. A few wa
 - `gtp the store page in docs/listing.md`
 - `grill this from the side of someone who has never heard of it`
 
-gtp is one instruction file. It runs no scripts and sends nothing anywhere. Claude reads your project and edits files with its usual tools and permissions.
-
 If it doesn't start when you say `gtp`, call it directly with `/gtp`, and check that `SKILL.md` sits in a folder named `gtp`. Bugs and ideas go in [issues](https://github.com/kevlar10x/gtp/issues).
+
+## Privacy
+
+gtp is one instruction file. It runs no scripts and sends nothing anywhere. Claude reads your project and edits files with its usual tools, under the permissions you've set.
+
+## Uninstall
+
+```
+npx skills remove gtp -g
+```
+
+If you installed the plugin: `claude plugin uninstall gtp`. If you copied the file, delete `~/.claude/skills/gtp/`.
 
 ## Credit
 
 Made by kevlar10x. The idea grew out of Matt Pocock's [grill-me](https://github.com/mattpocock/skills) skill (MIT). gtp points the questions at the product from a user's point of view, and Claude answers them itself.
 
-MIT license.
+Sister skill: [btt](https://github.com/kevlar10x/btt) takes an idea, picks what kind of thing to build, then builds and tests it.
+
+MIT license. The original is at https://github.com/kevlar10x/gtp.
 
 Tips are optional: https://ko-fi.com/kevlar10x

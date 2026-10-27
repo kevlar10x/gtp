@@ -11,6 +11,7 @@
   "repository": "https://github.com/kevlar10x/gtp",
   "documentationUrl": "https://github.com/kevlar10x/gtp#readme",
   "supportUrl": "https://github.com/kevlar10x/gtp/issues",
+  "privacyPolicyUrl": "https://github.com/kevlar10x/gtp#privacy",
   "icon": "./.claude-plugin/icon.png",
   "license": "MIT",
   "keywords": ["product-review", "ux", "feedback", "critique", "readme", "mods", "games", "apps"]
