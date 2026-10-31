@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- gtp now ends with 3 to 5 ranked ideas for what to build next.
 - The README has Privacy and Uninstall sections, a step for installing from the desktop app, and a link to btt.
 - The plugin listing links to the README's Privacy section.
 - The repo's Sponsor button links to Ko-fi.

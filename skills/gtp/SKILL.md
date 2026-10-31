@@ -40,12 +40,19 @@ Fix everything that's safe to fix now: code, defaults, UX, mod page or readme co
 
 Gaps that need money, a public post, or a change to what the product fundamentally is: list them for the user instead of acting.
 
-## 5. Report compactly
+## 5. Suggest what's next
+
+Once the gaps are dealt with, list 3 to 5 new things worth building, the kind that give someone a new reason to pick it up or come back. Rank them by how much a user would notice against how much work they are, one line each. Don't build them unless the user says so.
+
+## 6. Report compactly
 
 ```
 GTP: <product>
 1. <question> → <honest answer> → fixed: <what>
 2. <question> → <honest answer> → needs you: <why>
+
+Next:
+1. <idea>: <why it's worth it> (small / medium / big)
 ```
 
 Then one line on what changed.

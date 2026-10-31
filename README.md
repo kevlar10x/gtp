@@ -15,7 +15,7 @@ Works for mods, games, apps, sites and tools.
 
 Games also get asked whether the first minute is fun, whether the goal is clear, and whether there's a reason to play again.
 
-Claude answers each one from what the product actually does, and a weak answer counts as a gap. It makes safe fixes (code, defaults, page copy, install steps) right away. Anything that costs money, goes public, or changes what the product is, it lists for you to decide.
+Claude answers each one from what the product actually does, and a weak answer counts as a gap. It makes safe fixes (code, defaults, page copy, install steps) right away. Anything that costs money, goes public, or changes what the product is, it lists for you to decide. It ends with a few ranked ideas for what to build next.
 
 ## Example
 
