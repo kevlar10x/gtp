@@ -1,7 +1,7 @@
 {
   "name": "gtp",
   "displayName": "gtp: grill the product",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Grill your product from the user's side: ask what a would-be player, user or downloader would ask, answer honestly from the real product, and fix the gaps.",
   "author": {
     "name": "kevlar10x",

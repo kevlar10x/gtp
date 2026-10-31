@@ -4,7 +4,7 @@ description: Grill the product. Run when the user says "gtp" or /gtp, or asks to
 license: MIT
 metadata:
   author: kevlar10x
-  version: "1.0.0"
+  version: "1.1.0"
   repository: https://github.com/kevlar10x/gtp
 ---
 

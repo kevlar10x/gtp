@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 1.1.0 - 2026-10-31
 
 - gtp now ends with 3 to 5 ranked ideas for what to build next.
 - The README has Privacy and Uninstall sections, a step for installing from the desktop app, and a link to btt.
