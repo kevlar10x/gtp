@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+- gtp asks more: the first pass now picks 12 to 16 questions, up from 6 to 10.
+- Every run adds a second pass with its own list of 8 to 12 questions on user experience, attention and retention. The questions about keeping a product moved there.
+- Needs-you lines are shorter: the question, then what to do in six plain words or fewer.
+
 ## 1.1.0 - 2026-10-31
 
 - gtp now ends with 3 to 5 ranked ideas for what to build next.

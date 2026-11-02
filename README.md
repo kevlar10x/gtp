@@ -1,25 +1,37 @@
 # gtp: grill the product
 
-A Claude skill that looks at what you're building from the side of the person deciding whether to bother with it. Type `gtp` and Claude asks the questions a would-be player, user or downloader would ask, answers them honestly from the actual product, and fixes the gaps it finds.
+A Claude skill that looks at what you're building from the side of the person deciding whether to bother with it. Type `gtp` and Claude asks the questions a would-be player, user or downloader would ask, runs a second pass on user experience, attention and retention, answers both honestly from the actual product, and fixes the gaps it finds.
 
 Works for mods, games, apps, sites and tools.
 
 ## What it asks
+
+Every run has two passes, each with its own list.
+
+The first picks 12 to 16 questions on whether someone would pick it up:
 
 - Would I notice it? Do the title and thumbnail say what it is in two seconds?
 - Why this over the alternatives, or over doing nothing?
 - Can I trust it? Real screenshots, clear requirements, a version number?
 - How long from download to the good part?
 - What breaks, confuses or annoys me? Does it uninstall cleanly?
-- Why would I keep it, come back, or tell a friend?
 
-Games also get asked whether the first minute is fun, whether the goal is clear, and whether there's a reason to play again.
+The second picks 8 to 12 on whether it holds them once they have:
+
+- Where do my eyes land, and do I always know what to do next?
+- When would I get bored or look away?
+- When I get something wrong, can I get back without losing anything?
+- Why would I open it again tomorrow, or tell a friend?
+
+Games also get asked whether the first minute is fun, whether the goal is clear, whether the pacing holds, and whether there's a reason to play again.
 
 Claude answers each one from what the product actually does, and a weak answer counts as a gap. It makes safe fixes (code, defaults, page copy, install steps) right away. Anything that costs money, goes public, or changes what the product is, it lists for you to decide. It ends with a few ranked ideas for what to build next.
 
+Retention here means being worth coming back to, so gtp leaves out streak guilt, fake urgency and nag prompts.
+
 ## Example
 
-A real run on a made-up app idea:
+A real run on a made-up app idea, from before the second pass:
 
 ![gtp on FridgeShare, a made-up app for flatmates: nine questions a user would ask, each answered with a fix or a call left to the author](docs/fridgeshare-demo.png)
 
